@@ -1,0 +1,27 @@
+{
+    "name": "root/test-case",
+    "type": "project",
+    "description": "Test case with phpUnit",
+    "require": {
+    },
+    "authors": [
+        {
+            "name": "Mauro Nunes",
+            "email": "maurao.dev@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^6.5",
+        "mockery/mockery": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mauro\\PHPUnit\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mauro\\PHPUnit\\": "tests"
+        }
+    }
+}
